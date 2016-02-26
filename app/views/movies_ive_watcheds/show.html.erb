@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @movies_ive_watched.title %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @movies_ive_watched.director %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @movies_ive_watched.date %>
+</p>
+
+<%= link_to 'Edit', edit_movies_ive_watched_path(@movies_ive_watched) %> |
+<%= link_to 'Back', movies_ive_watcheds_path %>
